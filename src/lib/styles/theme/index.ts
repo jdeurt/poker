@@ -6,10 +6,10 @@ import { config } from "./config";
 import { fonts } from "./fonts";
 
 const customTheme = extendTheme({
-  fonts,
-  colors,
-  config,
-  components,
+    fonts,
+    colors,
+    config,
+    components,
 });
 
 export default customTheme;
